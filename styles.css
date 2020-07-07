@@ -36,15 +36,22 @@
 }
 
 .section {
-  /* max-width: 50%; */
   display: flex;
-  /* justify-content: center; */
   justify-content: space-evenly;
-  margin: 1em 20%;
+  margin: 1.5em 10%;
   border-radius: 1em;
   box-shadow: 1px 0px 12px 0px rgba(207,205,207,1);
 }
 
+.second-section {
+  flex-direction: row-reverse;
+}
+
 .section-illustration {
-  max-height: 300px;
+  max-height: 250px;
+  padding: 2em 0;
+}
+
+.section-text {
+  max-width: 350px;
 }
