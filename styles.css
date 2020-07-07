@@ -1,20 +1,50 @@
-body {
-  background: white;
+.first-section {
+  background-image: url('/images/bg-hero-desktop.svg');
 }
 
-.nav-links {
+.header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 1em 3em;
 }
 
-li {
-  margin-right: 1em;
-
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 3em;
 }
 
-ul > li {
-  display: inline-block;
-  zoom:1;
-  *display:inline;
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-button {
+  max-width: 100px;
+}
+
+.illustration-mockups {
+  max-height: 400px;
+  padding: 3em 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  /* max-width: 50%; */
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  margin: 1em 20%;
+  border-radius: 1em;
+  box-shadow: 1px 0px 12px 0px rgba(207,205,207,1);
+}
+
+.section-illustration {
+  max-height: 300px;
 }
