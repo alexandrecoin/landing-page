@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
   margin: 0 auto;
   padding: 0 auto;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.fa {
+  font-size: 100px;
+  margin-right: 2em;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.p {
+  color: hsl(208, 11%, 55%)
 }
 
 .first-section {
@@ -24,10 +51,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 40%;
 }
 
 .intro-button {
-  max-width: 100px;
+  margin-top: 2em;
+  max-width: 300px;
+  background: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: bold;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 20px;
+}
+
+.try-now {
+  max-width: 200px;
+  background: lightgray;
+  color: hsl(192, 100%, 9%);
+  font-weight: bold;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 20px;
 }
 
 .illustration-mockups {
@@ -45,7 +90,7 @@ body {
   justify-content: space-evenly;
   margin: 1.5em 10%;
   border-radius: 1em;
-  box-shadow: 1px 0px 12px 0px rgba(207,205,207,1);
+  box-shadow: 1px 0px 12px 0px rgba(207, 205, 207, 1);
 }
 
 .section-description {
@@ -76,6 +121,7 @@ body {
   justify-content: space-evenly;
   background: hsl(192, 100%, 9%);
   color: white;
+  padding: 3em 0;
 }
 
 .column1 {
@@ -93,4 +139,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 2em;
 }
