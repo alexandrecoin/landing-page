@@ -10,6 +10,14 @@ body {
   font-weight: 400;
 }
 
+button:focus {
+  outline:none;
+}
+
+button:hover  {
+  cursor: pointer;
+}
+
 h1, h2 {
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -140,4 +148,5 @@ h1, h2 {
 li {
   list-style-type: none;
   margin-bottom: 2em;
+  cursor: pointer;
 }
