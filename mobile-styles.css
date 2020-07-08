@@ -1,0 +1,51 @@
+@media (max-width: 450px) {
+  body {
+    font-size: 14px;
+    flex: 1 0 auto;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .logo {
+    max-height: 20px;
+    margin-top: 1em;
+  }
+
+  .intro-text {
+    max-width: 100%;
+  }
+
+  .illustration-mockups {
+    max-height: 200px;
+    padding: 3em 0;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-illustration {
+    max-width: 150px;
+  }
+
+  .section-description {
+    max-width: 70%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .column4 {
+    margin-left: 20%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
