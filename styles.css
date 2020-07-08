@@ -1,3 +1,8 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 .first-section {
   background-image: url('/images/bg-hero-desktop.svg');
 }
@@ -43,6 +48,12 @@
   box-shadow: 1px 0px 12px 0px rgba(207,205,207,1);
 }
 
+.section-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .second-section {
   flex-direction: row-reverse;
 }
@@ -54,4 +65,32 @@
 
 .section-text {
   max-width: 350px;
+}
+
+.third-section {
+  margin-bottom: 10em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: hsl(192, 100%, 9%);
+  color: white;
+}
+
+.column1 {
+  margin-left: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  fill: #ff0000;
+}
+
+.column4 {
+  margin-right: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
