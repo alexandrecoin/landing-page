@@ -1,0 +1,15 @@
+@media (min-width: 421px) and (max-width: 1399px) {
+  body {
+    font-size: 14px;
+    flex: 1 0 auto;
+  }
+
+  .illustration-mockups {
+    max-height: 250px;
+  }
+
+  .section-description {
+    max-width: 25%;
+  }
+}
+

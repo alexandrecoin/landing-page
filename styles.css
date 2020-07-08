@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 body {
   margin: 0 auto;
   padding: 0 auto;
@@ -11,14 +10,15 @@ body {
 }
 
 button:focus {
-  outline:none;
+  outline: none;
 }
 
-button:hover  {
+button:hover {
   cursor: pointer;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Poppins', sans-serif;
   color: black;
   font-weight: 600;
@@ -35,11 +35,11 @@ h1, h2 {
 }
 
 .p {
-  color: hsl(208, 11%, 55%)
+  color: hsl(208, 11%, 55%);
 }
 
 .first-section {
-  background-image: url('/images/bg-hero-desktop.svg');
+  background-image: url('./images/bg-hero-desktop.svg');
 }
 
 .header {
